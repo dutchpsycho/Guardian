@@ -1,0 +1,16 @@
+{
+  "name": "hydrasec",
+  "version": "1.0.0",
+  "main": "src/master.js",
+  "type": "module",
+  "dependencies": {
+    "@iarna/toml": "^3",
+    "canvas": "^3.1.0",
+    "discord.js": "^14.0.0",
+    "toml": "^3.0.0"
+  },
+  "scripts": {
+    "start": "node src/master.js",
+    "dev": "nodemon src/master.js"
+  }
+}
