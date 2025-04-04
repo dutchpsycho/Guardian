@@ -1,6 +1,6 @@
-# Hydra Security
+# Guardian
 
-Hydra security is a customizable Discord bot inspired by Wick-bot that provides a offline captcha verification system using canvas.
+Guardian is a customizable Discord bot inspired by Wick-bot that provides a offline captcha verification system using canvas.
 
 ![EXAMPLE](Image/Example.png)
 ![VERIF](Image/Verif.png)
@@ -20,8 +20,8 @@ This presumes you have Node.js installed, if you do not install it here -> [NODE
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/YOUR_USERNAME/HYDRA-SECURITY.git
-cd HYDRA-SECURITY
+git clone https://github.com/YOUR_USERNAME/Guardian.git
+cd Guardian
 ```
 
 ### **2️⃣ Install Dependencies**
@@ -56,7 +56,7 @@ verification_role_id = "YOUR_VERIFICATION_ROLE_ID"
 [captcha]
 timeout = 300  # Timeout for CAPTCHA (seconds)
 length = 5  # Number of characters in CAPTCHA
-footer = "HYDRASEC"
+footer = "Guardian"
 
 [permissions]
 whitelisted_roles = [ "ID1", "ID2" ] # 1ID or multiple ID(s)
@@ -64,10 +64,10 @@ whitelisted_roles = [ "ID1", "ID2" ] # 1ID or multiple ID(s)
 
 ---
 
-## 💻 Running HYDRA
+## 💻 Running Guardian
 Start the bot using:
 ```sh
-hydra.bat
+Guardian.bat
 ```
 
 Alternatively, run
@@ -79,7 +79,7 @@ This will spawn a console, once closed the bot will terminate.
 ---
 
 ## **⌨️ Slash Commands**
-HYDRA-SECURITY uses **slash commands** for configuration.
+Guardian uses **slash commands** for configuration.
 
 | Command               | Description |
 |----------------------|-------------|
@@ -93,4 +93,4 @@ HYDRA-SECURITY uses **slash commands** for configuration.
 ---
 
 ## **📜 License**
-**HYDRA-SECURITY** is open-source and distributed under the **MIT License**.
+**Guardian** is open-source and distributed under the **MIT License**.
