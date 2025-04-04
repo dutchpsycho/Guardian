@@ -44,7 +44,7 @@ if %errorlevel% neq 0 (
 )
 
 echo [!] Setup complete! You can now run the bot with:
-echo     hydra.bat
+echo     Guardian.bat
 
 timeout /t 5 /nobreak >nul
 exit /b
