@@ -35,7 +35,7 @@ export async function initializeVerification(client, overrideChannelId = null) {
         }
 
         const embed = new EmbedBuilder()
-            .setTitle('HYDRA VERIFICATION')
+            .setTitle('Guardian VERIFICATION')
             .setDescription('Click the button below to get verified!')
             .setColor('#2F3136');
 
@@ -74,7 +74,7 @@ function reattachCollector(message) {
 export async function handleButtonInteraction(interaction) {
     const guild = interaction.guild;
     if (guild.id !== config.server.guild_id) {
-        await interaction.reply({ content: 'Verification is only available in the HYDRA server.', ephemeral: true });
+        await interaction.reply({ content: 'Verification is only available in the Guardian server.', ephemeral: true });
         return;
     }
 
@@ -128,7 +128,7 @@ export async function handleModalSubmit(interaction) {
     const guild = interaction.guild;
 
     if (guild.id !== config.server.guild_id) {
-        await interaction.reply({ content: 'Captcha verification is only available in the HYDRA server.', ephemeral: true });
+        await interaction.reply({ content: 'Captcha verification is only available in the Guardian server.', ephemeral: true });
         return;
     }
 
@@ -154,7 +154,7 @@ export async function handleModalSubmit(interaction) {
 
         try {
             await member.roles.add(verificationRole);
-            await interaction.reply({ content: `You've been verified, welcome to HYDRA!`, ephemeral: true });
+            await interaction.reply({ content: `You've been verified, welcome to Guardian!`, ephemeral: true });
             console.log(`User ${userId} has been verified.`);
         } catch (error) {
             console.error('Error assigning role:', error);

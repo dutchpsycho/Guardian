@@ -2,8 +2,8 @@
 
 Guardian is a customizable Discord bot inspired by Wick-bot that provides a offline captcha verification system using canvas.
 
-![EXAMPLE](Image/Example.png)
-![VERIF](Image/Verif.png)
+![EXAMPLE](Image/Start.png)
+![VERIF](Image/End.png)
 
 ## **💎 Features**
 - ✅ **Verification System**: Users must pass a CAPTCHA challenge before accessing the server.

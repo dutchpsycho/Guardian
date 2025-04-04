@@ -5,7 +5,7 @@ import { readConfig } from './utils.js';
 const config = readConfig();
 
 export function createCaptchaEmbedAndButtons(captchaText, imageBuffer) {
-    const attachment = new AttachmentBuilder(imageBuffer, { name: 'hydracaptcha.png' });
+    const attachment = new AttachmentBuilder(imageBuffer, { name: 'Guardian_Captcha.png' });
 
     const captchaEmbed = new EmbedBuilder()
         .setTitle('Captcha Verification')
